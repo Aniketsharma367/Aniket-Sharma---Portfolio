@@ -888,7 +888,11 @@ nav>ul>li>a.active {
     padding: 7px;
 }
 
-
+.firstproject,
+  .secondproject,
+  .thirdproject {
+    width: 100% !important;
+  }
 
 .projects {
     height: 100%;
@@ -906,19 +910,23 @@ nav>ul>li>a.active {
     gap: 33px;
     padding: 7px;
     grid-template-columns: 1fr;
-    height: 1047.6px;
+    height: 1070.6px;
 }
 
 
 .firstproject {
     width: 383px;
     margin: 10px auto;
+    height:324.2px;
 }
 
 .firstproject>a>img {
     width: 100%;
 }
 
+.internal {
+    height: 114.6px;
+}
 
 .secondproject {
     width: 383px;
@@ -942,6 +950,9 @@ nav>ul>li>a.active {
     width: 100%;
 }
 
+.footer {
+    margin: 150px auto 0px;
+}
 
 .footer>span:nth-child(2) {
     display: flex;
