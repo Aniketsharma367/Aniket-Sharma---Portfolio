@@ -39,6 +39,13 @@
 body {
     background-color: rgb(0, 0, 0);
     scroll-behavior: smooth;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
 }
 
 header {
@@ -192,14 +199,14 @@ nav>ul>li>a.active {
     border: 2px solid white;
     background-size: cover;
     background-image: url(images/img2.jpg);
-    background-position: 50% 20%;
+    background-position: 50% 50%;
 }
 
 .section1 {
     font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 100%;
     /* border: 2px solid white; */
     width: 95%;
     margin: 60px auto 0px;
@@ -398,7 +405,7 @@ nav>ul>li>a.active {
     font-family: "Poppins", sans-serif;
     display: flex;
     gap: 50px;
-    height: 55vh;
+    height: 100%;
     /* border: 2px solid white; */
     margin: 6px auto 0px;
     width: 95%;
@@ -475,7 +482,7 @@ nav>ul>li>a.active {
     grid-template-rows: 1fr ; */
     gap: 27px;
     color: white;
-    height: 70vh;
+    height:578.4px;
     /* border: 2px solid white; */
     margin: 50px auto 0px;
     width: 95%;
@@ -655,7 +662,7 @@ nav>ul>li>a.active {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    height: 90vh;
+    height: 100%;
     width: 95%;
     /* border: 2px solid white; */
     margin: 20px auto 0px;
